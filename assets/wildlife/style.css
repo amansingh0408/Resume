@@ -1,0 +1,331 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	overflow-x: hidden;
+
+}
+
+.main-cont{
+	width: 100vw;
+	background-color: black;
+	height: 4890px;
+
+}
+
+.home-container{
+	width: 100vw;
+	height: 790px;
+	background-image: url('01.jpg');
+	background-size: cover;
+	color: white;
+}
+
+.home-content{
+	background-color: #00000080;
+	width: 100%;
+	height: 100%;
+}
+
+.content1 h1{
+	padding: 30px;
+	padding-left: 40px;
+}
+
+.content2{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 160px;
+}
+
+.content2 h1{
+	font-size: 78px;
+	font-weight: 700;
+	font-family: "Playfair Display", serif;
+}
+
+.content2 p{
+	font-size: 23px;
+	margin-top: 31px;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+}
+
+.content2 button{
+	background-color: white;
+	padding: 13px 32px;
+	color: black;
+	font-family: "Raleway", sans-serif;
+	margin-top:	32px;
+	border-radius: 50px;
+	font-size: 17px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	border: none;
+	transition: all 0.1s;
+}
+
+.content2 button:hover{
+	background-color: #cbcbcb;
+}
+
+/*section2*/
+
+.blog-cont{
+	margin-top: 180px;
+	color: white;
+	text-align: center;
+}
+
+.blog-cont h1{
+	font-size: 53px;
+
+}
+
+.blog-cont p{
+	padding-top: 25px;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-family: "Reddit Sans", sans-serif;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 30px;
+	width: 1080px;
+	margin: auto;
+	height: 500px;
+	margin-top: 60px;
+}
+
+.grid-cont{
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+}
+
+.img1{
+	background-image: url('001.jpg');
+}
+
+.img2{
+	background-image: url('002.jpg');
+}
+
+.img3{
+	background-image: url('003.jpg');
+}
+
+.content-container{
+	background-color: #00000090;
+	width: 100%;
+	height: 100%;
+}
+
+.content-container p{
+	padding-top: 209px;
+	font-size: 26px;
+	padding-left: 21px;
+	padding-right: 15px;
+	font-family: "Playfair Display", serif;
+}
+
+.grid-cont.img1 .content-container p{
+	padding-top: 210px;
+	padding-right: 49px;
+}
+
+.grid-cont.img2 .content-container p{
+	padding-top: 210px;
+	padding-right: 87px;
+	margin: auto;
+}
+
+.img-container{
+	background-image: url('004.jpg');
+	background-size: cover;
+	width: 100vw;
+	height: 610px;
+	margin-top: 85px;
+}
+
+.cont1{
+	background-color: #00000090;
+	width: 100%;
+	height: 100%;
+}
+
+.sec3-cont{
+	width: 1080px;
+	margin: auto;
+	padding-top: 287px;
+}
+
+.sec3-cont p{
+	width: 70%;
+	margin: auto;
+	font-size: 15px;
+	font-family: "Raleway", sans-serif;
+}
+
+
+/*section-4*/
+
+.sec4-container{
+	width: 1080px;
+	margin: auto;
+	margin-top: 130px;
+}
+
+.sec4-container p{
+	padding-top: 40px;
+	width: 90%;
+	margin: auto;
+	font-size: 15px;
+}
+
+/*section-5*/
+
+.image-container{
+	background-image: url('005.jpg');
+	background-size: cover;
+	width: 100vw;
+	height: 500px;
+	margin-top: 100px;
+}
+
+.container1{
+	background-color: #00000040;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*section-6*/
+
+.grid-container1{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 30px;
+	width: 1080px;
+	margin: auto;
+	height: 500px;
+	margin-top: 100px;
+}
+
+.grid-cont1{
+	width: 100%;
+	height: 450px;
+	background-size: cover;
+}
+
+.grid-cont1.img01{
+	background-image: url('006.jpg');
+}
+
+.grid-cont1.img02{
+	background-image: url('007.jpg');
+}
+
+/*section-7*/
+
+.sec7-container{
+	width: 1080px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.sec7-container p{
+	padding-top: 40px;
+	width: 90%;
+	margin: auto;
+	font-size: 15px;
+}
+
+/*section-8*/
+
+.sec8-container{	
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+	width: 1080px;
+	margin: auto;
+	margin-top: 190px;
+}
+
+.sec8-item{
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+}
+
+.sec8-item.img008{
+	background-image: url('008.jpg');
+}
+
+.sec8-item.img009{
+	background-image: url('009.jpg');
+}
+
+.sec8-item.img010{
+	background-image: url('010.jpg');
+}
+
+.sec8-item.img011{
+	background-image: url('011.jpg');
+}
+
+/*section-9*/
+
+.sec9-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 30px;
+	width: 1080px;
+	margin: auto;
+	margin-top: 100px;
+/*	margin-left: 10px;*/
+
+}
+
+.sec9-cont{
+	color: white;
+	background: none;
+	float: right;
+
+
+}
+
+.sec9-cont h2{
+	font-weight: lighter;
+	font-size: 22px;
+
+}
+
+.sec9-cont p{
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+/*footer-section*/
+
+.footer{
+	background-color: black;
+	width: 100vw;
+	height: 60px;
+}
+
+.footer-cont h2{
+	margin: auto;
+	margin-top: 70px;
+	font-weight: lighter;
+	padding-top: 20px;
+	font-size: 17px;
+}
+
+
+

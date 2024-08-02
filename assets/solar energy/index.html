@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar Energy</title>
+	<link rel="icon" type="image/x-icon" href="f2.png">
+
+	<style type="text/css">
+		
+		*{
+			padding: 0;
+			margin: 0;
+		}
+
+		body{
+			font-family: sans-serif;
+			overflow-x: hidden;
+		}
+
+		.main-cont{
+			width: 100vw;
+
+		}
+
+		.home-cont{
+			height: 900px;
+			background-image: url('01.jpg');
+			background-size: cover;
+			width: 100vw;
+		}
+
+		h1{
+			text-align: center;
+			text-transform: capitalize;
+			padding-top: 80px;
+			font-size: 90px;
+			font-family: georgia;
+			color: white;
+			letter-spacing: 8px;
+			font-weight: lighter;
+		}
+
+		.grid-container{
+			display: grid;
+			grid-template-columns: auto auto auto auto;
+			gap: 30px;
+			width: 1080px;
+			justify-content: center;
+			margin: auto;
+			margin-top: -575px;
+			
+		}
+
+		.grid-item{
+
+			margin-top: 100px;
+			height: 180px;
+			padding: 20px;
+			width: 180px;
+			justify-content: center;
+			background-color: #c4b35d;
+			box-shadow: 5px 5px 25px #00000030 ;
+		}
+
+		.grid-item .png{
+			width: fit-content;
+			margin: auto;
+/*			margin-top: 15px;*/
+			background-color: #c4b35d;
+			padding: 10px;
+		}
+
+		.grid-item .png img{
+			width: 60px;
+			height: auto;
+
+		}
+
+
+		.grid-item h2{
+			
+			margin-top: 30px;
+			font-size: 18px;
+			text-align: center;
+			line-height: 33px;
+			color: white;
+			font-weight: bold;
+		}
+
+
+		.btn button{
+			display: block;
+			width: fit-content;
+			margin: auto;
+			padding: 15px 40px;
+			margin-top: 80px;
+
+			background-color: white;
+			color: black;
+			border-radius: 50px;
+			font-size: 15px;
+			letter-spacing: 1px;
+			font-weight: bold ;
+			transition: all 0.1s;
+		
+		}
+
+		.btn button:hover{
+			background-color: #c4b35d;
+			color: white;
+		}
+
+		.blog-cont h1{
+			color: black;
+			margin-top: 120px;
+			margin-bottom: 30px;
+			font-size: 55px;
+			letter-spacing: 1px;
+			font-weight: lighter;
+		}
+
+		.grid-cont{
+			display: grid;
+			grid-template-columns: auto auto ;
+			gap: 60px;
+			width: 900px;
+			margin: auto;
+			margin-top: 60px;
+			height: 500px;
+			
+		}
+
+		.grid-info{
+			padding: 20px;
+			background-color: #c4b35d;
+			box-shadow: 5px 5px 25px #00000030 ;
+			width: fit-content;
+			height: 300px;
+
+		}
+
+		.grid-info1{
+/*			padding: 20px;*/
+			background-image: url('001.jpg');
+			background-size: cover;
+			color: white;
+			box-shadow: 5px 5px 25px #00000030 ;
+			width: 100%;
+			height: auto;
+
+		}
+
+		.info1{
+			height: 300px;
+			width: fit-content;
+			padding: 20px;
+			background-color: #00000085;
+		}
+
+		.grid-info2{
+			padding: 20px;
+			background-color: #000000;
+			color: white;
+			box-shadow: 5px 5px 25px #00000030 ;
+			width: fit-content;
+			height: 300px;
+
+		}
+
+		.grid-info h2{
+			font-size: 36px;
+			line-height: 33px;
+			font-weight: lighter;
+			font-family: georgia;
+			color: white;
+			margin-top: 20px;
+			margin-left: 10px;
+			letter-spacing: 2px;
+
+		}
+
+		.grid-info1 h2{
+			font-size: 36px;
+			line-height: 33px;
+			font-weight: lighter;
+			font-family: georgia;
+			color: white;
+			margin-top: 20px;
+			margin-left: 10px;
+			letter-spacing: 2px;
+
+		}
+
+		.grid-info2 h2{
+			font-size: 36px;
+			line-height: 33px;
+			font-weight: lighter;
+			font-family: georgia;
+			color: white;
+			margin-top: 20px;
+			margin-left: 10px;
+			letter-spacing: 2px;
+
+		}
+
+		.grid-info p{
+			font-size: 20px;
+			color: white;
+			margin-top: 35px;
+			line-height: 28px;
+		}
+
+		.grid-info1 p{
+			font-size: 20px;
+			color: white;
+			margin-top: 35px;
+			line-height: 28px;
+		}
+
+		.grid-info2 p{
+			font-size: 20px;
+			color: white;
+			margin-top: 35px;
+			line-height: 28px;
+		}
+
+		.blog-cont button{
+			padding: 20px 66px;
+			margin-top: 60px;
+			background: none;
+			font-size: 18px;
+			letter-spacing: 2px;
+			border-radius: 50px;
+			color: white;
+			border: solid 2px white;
+			transition: all 0.2s;
+
+		}	
+
+		.blog-cont button:hover{
+			color: #c4b35d;
+			background-color: white;
+		}
+
+/*		section-3*/
+
+		.img-cont{
+			margin-top: 296px;
+			height: 550px;
+			background-image: url('02.jpg');
+			background-size: cover;
+			width: 100vw;
+		}
+
+		.heading{
+			height: 100%;
+			width: 100%;
+			background-color: #00000085;
+		}
+
+		.heading h2{
+			color: white;
+			text-align: center;
+			padding-top: 100px;
+			font-weight: 400;
+			font-family: georgia;
+			font-size: 3.75rem;
+			letter-spacing: 0.8px;
+		}
+
+		.heading button{
+
+			margin-top: 73px;
+			float: left;
+			margin-left: 269px;
+			width: fit-content;
+		}
+
+		.sec3-btn{
+			display:block;
+/*			float: left;*/
+			margin: auto;
+			width: fit-content;
+		}
+
+		.sec3-btn button{
+			margin-left: 0px;
+		}
+
+		.sec3-btn button:nth-child(2){
+			margin-left: 20px;
+		}
+
+
+/*		section-4*/
+
+		.sec-4{
+			margin-top: -120px;
+			background-color: black;
+			height: 1475px;
+			width: 100vw;
+
+		}
+
+		.head-cont{
+			width: 1080px;
+			margin: auto;
+		}
+			
+		.head-cont h1{
+			text-align: center;
+			color: white;	
+
+		}
+
+		.head-cont p{
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			line-height: 37px;
+
+		}
+
+		.grid-cont1{
+			display: grid;
+			grid-template-columns: auto auto auto;
+			gap: 40px;
+			padding: 30px;
+			margin-top: 20px;
+
+
+		}
+
+		.grid-item1 {
+			background-image: url('03.jpg');
+			background-size: cover;
+			height: 475px;
+
+		}
+
+		.grid-item2 {
+			background-image: url('04.jpg');
+			background-size: cover;
+			height: 475px;
+			
+		}
+
+		.grid-item3 {
+			background-image: url('05.jpeg');
+			background-size: cover;
+			height: 475px;
+
+		}
+
+		.grid-item4 {
+			background-image: url('06.jpeg');
+			background-size: cover;
+			height: 475px;
+		}
+
+		.grid-item5 {
+			background-image: url('07.jpeg');
+			background-size: cover;
+			height: 475px;
+		}
+
+		.grid-item6 {
+			background-image: url('08.jpeg');
+			background-size: cover;
+			height: 475px;
+		}
+		
+		.information{
+/*			height: 475px;*/
+			background-color: #00000090;
+			
+			color: white;
+			padding: 238px 43px;
+		}
+
+		.information h2{
+			border-top: solid 2px white;
+			padding-top: 30px;
+			padding-bottom: 14px;
+		}
+	
+
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<div class="main-cont">
+
+		<div class="home-cont">
+			
+			<div class="heading">
+				
+				<h1>we're the best<br>in solar energy</h1>
+
+			</div>
+
+			<div class="grid-container">
+
+			<div class="grid-item">
+
+				<div class="png">
+					<img src="p1.png">
+				</div>
+
+				<h2>Inverter inspection</h2>
+			</div>
+
+			<div class="grid-item">
+
+				<div class="png">
+					<img src="p2.png">
+				</div>
+
+				<h2>Complete<br>Diagnostics</h2>
+			</div>
+
+			<div class="grid-item">
+
+				<div class="png">
+					<img src="p3.png">
+				</div>
+
+				<h2>Expert Solar Panel Repair</h2>
+			</div>
+
+			<div class="grid-item">
+
+				<div class="png">
+					<img src="p4.png">
+				</div>
+
+				<h2>Updates &<br>Monitoring</h2>
+			</div>
+
+		</div>
+
+		<div class="btn">
+			<button>GET FREE CONSULT</button>	
+		</div>
+<!-- blog -->
+
+		<div class="blog-cont">
+
+			<h1>Power Your Home With Solar</h1>
+
+			<div class="grid-cont">
+
+			<div class="grid-info">
+				<h2>Solar Financing</h2>
+
+				<p>
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+
+				<button>LEARN MORE</button>
+
+			</div>
+
+			<div class="grid-info1">
+
+				<div class="info1">
+					<h2>Commercial</h2>
+
+					<p>
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+
+					<button>LEARN MORE</button>
+
+				</div>
+			</div>
+
+			<div class="grid-info2">
+				<h2>Design & Permits</h2>
+
+				<p>
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<button>LEARN MORE</button>
+			</div>
+
+			<div class="grid-info">
+				<h2>Inspection & Install</h2>
+
+				<p>
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<button>LEARN MORE</button>
+			</div>
+			
+		</div>
+
+		<!-- Section-3 -->
+
+		<div class="img-cont">
+
+			<div class="heading">
+				<h2>We specialize in a wide variety<br>of solar installation</h2>
+
+				<div class="sec3-btn">
+					<button>VIEW ALL PRODUCTS</button>
+					<button>GET FREE CONSULT</button>
+				</div>
+
+					
+			</div>
+		</div>
+
+
+		<!-- section-4 -->
+
+		<div class="sec-4">
+			
+		
+			<div class="head-cont">
+				<h1>Installing Benefits</h1>
+				<p>Harnessing energy from the sun and converting it to clean energy to power your home — or even a car —<br> reduces your carbon footprint and saves on energy costs for years to come.</p>
+			</div>
+
+			<div class="grid-cont1">
+
+			<div class="grid-item1">
+
+				<div class="information">
+					<h2>Cost Savings</h2>
+					<p>Ut enim ad minim veniam</p>
+				</div>
+				
+			</div>
+
+			<div class="grid-item2">
+
+				<div class="information">
+					<h2>Increase Home Value</h2>
+					<p>Ut enim ad minim veniam</p>
+				</div>
+				
+			</div>
+
+			<div class="grid-item3">
+
+				<div class="information">
+					<h2>Solar Works Everywhere</h2>
+					<p>Ut enim ad minim veniam</p>
+				</div>
+				
+			</div>
+
+			<div class="grid-item4">
+
+				<div class="information">
+					<h2>Earn Tax Credits & Rebates</h2>
+					<p>Ut enim ad minim veniam</p>
+				</div>
+				
+			</div>
+
+			<div class="grid-item5">
+
+				<div class="information">
+					<h2>Help The Enviroment</h2>
+					<p>Ut enim ad minim veniam</p>
+				</div>
+				
+			</div>
+
+			<div class="grid-item6">
+
+				<div class="information">
+					<h2>Harnessing energy</h2>
+					<p>Ut enim ad minim veniam</p>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
